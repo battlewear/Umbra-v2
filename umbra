@@ -38,14 +38,16 @@ ClassList["umbra"] = {
 	saves : ["Int", "Wis"],
 	skills : ["\n\n" + toUni("Umbra") + ": Choose two from Acrobatics, Arcana, Deception, Investigation, Perception and Stealth."],
 	},
-	armor : [
-		[true, false, false, false],
-		[true, false, false, false]
-	],
-	weapons : [
-		[true, true],
-		[true, true]
-	],
+	toolProfs : {
+		primary : [["Tinker's tools"], ["Any tool", 2]],
+		secondary : [["Any tool", 1]]
+	},
+	armorProfs : {
+		primary : [true, true, false, false]
+	},
+	weaponProfs : {
+		primary : [true, false]
+	},
 	equipment : "Umbra starting equipment:\n \u2022 leather armor;\n \u2022 A martial weapon;\n \u2022 A longbow and 20 arrows and a spear -or- a one martial weapon and one simple weapon;\n \u2022 An dungeoneer's pack -or- explorer's pack.\n\nAlternatively, choose 4d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
 	attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
 	features : {
