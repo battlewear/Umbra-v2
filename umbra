@@ -37,7 +37,6 @@ ClassList["umbra"] = {
 	improvements : [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5],
 	saves : ["Int", "Wis"],
 	skills : ["\n\n" + toUni("Umbra") + ": Choose two from Acrobatics, Arcana, Deception, Investigation, Perception and Stealth."],
-	},
 	armorProfs : {
 		primary : [true, true, false, false]
 	},
@@ -57,7 +56,6 @@ ClassList["umbra"] = {
         "The movement in this feature doesnt cause Opportunity Attacks and you are unable to move normally if you use it."
 			])
 		},
-   };
 		"shadowfell presence" : {
 			name : "Shadowfell Presence",
 			source : ["JS:UM", 2],
