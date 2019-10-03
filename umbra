@@ -38,10 +38,6 @@ ClassList["umbra"] = {
 	saves : ["Int", "Wis"],
 	skills : ["\n\n" + toUni("Umbra") + ": Choose two from Acrobatics, Arcana, Deception, Investigation, Perception and Stealth."],
 	},
-	toolProfs : {
-		primary : [["Tinker's tools"], ["Any tool", 2]],
-		secondary : [["Any tool", 1]]
-	},
 	armorProfs : {
 		primary : [true, true, false, false]
 	},
